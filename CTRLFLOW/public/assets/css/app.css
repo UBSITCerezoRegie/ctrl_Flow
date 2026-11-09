@@ -1,0 +1,48 @@
+:root {
+  --cf-cream: #F6DFBB;
+  --cf-navy: #1E293B;
+  --cf-olive: #74764D;
+  --cf-olive-dark: #5E6040;
+  --cf-red: #EF4444;
+  --cf-orange: #F59E0B;
+  --cf-green: #10B981;
+  --cf-bg: #F8F9FA;
+  --cf-text: #2B2420;
+}
+
+:root {
+  --bs-primary: var(--cf-navy) !important;
+  --bs-primary-rgb: 30, 41, 59 !important;
+  --bs-success: var(--cf-green) !important;
+  --bs-success-rgb: 16, 185, 129 !important;
+  --bs-danger: var(--cf-red) !important;
+  --bs-danger-rgb: 239, 68, 68 !important;
+  --bs-warning: var(--cf-orange) !important;
+  --bs-warning-rgb: 245, 158, 11 !important;
+}
+
+body {
+  background-color: var(--cf-bg);
+  color: var(--cf-text);
+  font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main { flex: 1; }
+
+.btn-primary {
+  background-color: var(--cf-navy);
+  border-color: var(--cf-navy);
+}
+.btn-primary:hover {
+  background-color: #334155;
+  border-color: #334155;
+}
+
+a { color: var(--cf-olive-dark); }
+
+.card { border-radius: 10px; }
+
+.navbar-brand { letter-spacing: -0.01em; }
